@@ -1,4 +1,5 @@
 #coding: utf-8
+'''
 def Insercao_dado(): 
 	vC = [1 , 3.4 , 'A' , " IFSC " ]
 	print("Vetor Original:", vC)
@@ -26,18 +27,26 @@ def Remocao_dado(vet):
 	
 	print("Fim da função Remocao_dado()")
 
-
+def script02(vetA)
+    print("vetor recebido:", vet(A))
 	
 if __name__ == "__main__": 
-	vet = Insercao_dado()	
+	vet = script02()	
 	Remocao_dado(vet)
+'''
 
 
-
-
-
-
-
+vetA= [1 , 3.4 , 'A' , " IFSC " ]
+print (vetA)
+vetA.remove(3.4)
+print ('escolha a remecao de A')
+escolha = input ("pression 1 para remove a primera .. muito tecla para todo")
+if (escolha == "1" ):
+   vetA.remove("A")
+else :
+   while "A" in vetA :
+      vetA.remove("A")
+      print("vetor final": vetA)
 
 
 	
